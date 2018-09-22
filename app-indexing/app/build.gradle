@@ -24,7 +24,7 @@ android {
 }
 
 configurations.all {
-    resolutionStrategy.force 'com.android.support:support-annotations:27.1.1'
+    resolutionStrategy.force 'com.android.support:support-annotations:28.0.0'
 }
 
 dependencies {
@@ -36,8 +36,8 @@ dependencies {
     // [END app_indexing_gradle_dep]
     implementation 'com.google.firebase:firebase-core:16.0.3'
 
-    implementation 'com.android.support:support-v4:27.1.1'
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
 
     // Testing
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
